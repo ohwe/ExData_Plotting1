@@ -9,7 +9,7 @@ db$Date <- as.Date(db$Date, format = "%d/%m/%Y")
 
 
 png("plot2.png", width=480, height=480)
-plot(db$Time, db$Global_active_power,  type="l", ylab = "Global Active Power (kilowatts)")
+plot(db$Time, db$Global_active_power,  type="l", xlab = "", ylab = "Global Active Power (kilowatts)")
 dev.off()
 
 
